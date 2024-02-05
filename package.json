@@ -1,0 +1,26 @@
+{
+  "name": "single-spa-formio-issues",
+  "author": "Christopher Bradshaw",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run dev -w apps/formiovite\" \"npm run dev -w apps/root\" \"npm run dev -w apps/working-vite-formio\"",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@types/systemjs": "^6.13.5",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "concurrently": "^8.2.2",
+    "prettier": "^3.2.4",
+    "vite": "^5.0.12",
+    "vite-plugin-ejs": "^1.7.0"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "engines": {
+    "npm": ">=8.15.0",
+    "node": ">=18.0.0"
+  },
+  "packageManager": "^npm@8.15.0"
+}

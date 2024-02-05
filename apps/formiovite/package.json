@@ -1,0 +1,17 @@
+{
+  "name": "formiovite",
+  "version": "0.0.0",
+  "main": "./src/main.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 3001",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@formio/vue": "^5.0.0",
+    "single-spa-vue": "^3.0.0",
+    "vue": "^3.4.15"
+  }
+}
