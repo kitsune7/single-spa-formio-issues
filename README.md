@@ -6,6 +6,10 @@ This is a project which contains Vue + Vite + Single SPA all spread into three m
 - `formiovite`: An app which uses `single-spa-vue`, `vite`, and tries to load the form builder but fails.
 - `working-vite-formio`: An app which has `vite` and `@formio/vue` and runs successfully.
 
+This reproduction repository was based off of
+[dagorod`s repository](https://github.com/dagorod/turborepo-vue-vite-singlespa). I created this one to add a solution
+and simplify the repository a bit so that the problem is easier to narrow down.
+
 ## To run the issue
 
 Run the following command at root level.
