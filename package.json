@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "concurrently \"npm run dev -w apps/formiovite\" \"npm run dev -w apps/root\" \"npm run dev -w apps/working-vite-formio\"",
+    "nuke": "rm -rf ./package-lock.json ./node_modules ./apps/formiovite/node_modules ./apps/root/node_modules ./apps/working-vite-formio/node_modules && npm i",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
